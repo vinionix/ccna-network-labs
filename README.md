@@ -50,6 +50,7 @@ A trilha inicial tem cerca de 50 aulas práticas.
 
 - [Aula 01 — O caminho do pacote](aulas/aula-01-caminho-do-pacote.md)
 - [Aula 02 — Máscara, CIDR e subnetting sem trauma](aulas/aula-02-mascara-cidr-subnetting.md)
+- [Aula 03 — MAC Address, ARP e tabela MAC do switch](aulas/aula-03-mac-address-arp.md)
 
 ## Anotações
 
@@ -68,6 +69,7 @@ Sugestão de nomes:
 labs/lab-01-switch-mesma-rede.pkt
 labs/lab-02-dois-switches-mesma-lan.pkt
 labs/lab-03-subnetting-24-25-26.pkt
+labs/lab-04-arp-mac-table.pkt
 ```
 
 ## Regra de estudo
