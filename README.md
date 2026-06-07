@@ -2,41 +2,48 @@
 
 Repositório de estudos práticos de redes, suporte, NOC e preparação para CCNA.
 
-A ideia aqui é aprender redes fazendo: montar, quebrar, diagnosticar, corrigir e documentar.
+A proposta é aprender redes fazendo: montar topologias, testar comunicação, provocar falhas, diagnosticar problemas e documentar o raciocínio técnico.
 
 ## Objetivo
 
-Construir uma base forte para:
+Construir uma base sólida em redes de computadores com foco em:
 
-- Suporte técnico e troubleshooting
-- Monitoramento NOC
-- Redes TCP/IP
-- Cisco Packet Tracer
-- Subnetting
-- Switching e VLANs
-- Routing
-- Serviços IP
-- Segurança básica
-- Cloud networking e base para Cloud Security
+- suporte técnico;
+- troubleshooting;
+- fundamentos de NOC;
+- Cisco Packet Tracer;
+- TCP/IP;
+- subnetting;
+- switching;
+- routing;
+- serviços IP;
+- segurança básica;
+- base para cloud networking e cloud security.
 
 ## Método de estudo
 
-Cada aula segue este formato:
+Cada aula segue um formato prático:
 
-1. Conceito direto
-2. Exemplo real de suporte/NOC
-3. Laboratório no Packet Tracer
-4. Erro proposital
-5. Troubleshooting
-6. Perguntas estilo CCNA
-7. Tarefa prática
+1. conceito direto;
+2. exemplo aplicado a suporte/NOC;
+3. laboratório ou topologia sugerida;
+4. erro proposital;
+5. troubleshooting;
+6. perguntas de revisão;
+7. tarefa prática.
+
+A regra do repositório é:
+
+```text
+montar -> testar -> quebrar -> diagnosticar -> corrigir -> documentar
+```
 
 ## Trilha estimada
 
-A trilha inicial tem cerca de 50 aulas práticas.
+A trilha inicial foi pensada para aproximadamente 50 aulas práticas.
 
 | Fase | Aulas | Tema |
-|---|---:|---|
+| --- | ---: | --- |
 | Fundamentos de rede | 1-8 | IP, máscara, gateway, switch, roteador, ARP, TCP/UDP |
 | Subnetting | 9-14 | CIDR, rede, broadcast, hosts e divisão de redes |
 | Switching | 15-22 | MAC table, VLAN, trunk, STP e EtherChannel |
@@ -61,9 +68,9 @@ A trilha inicial tem cerca de 50 aulas práticas.
 
 ## Laboratórios Packet Tracer
 
-Os arquivos `.pkt` serão adicionados manualmente conforme forem criados.
+Os arquivos `.pkt` devem ser adicionados conforme os laboratórios forem criados.
 
-Sugestão de nomes:
+Sugestão de organização:
 
 ```text
 labs/lab-01-switch-mesma-rede.pkt
@@ -72,13 +79,26 @@ labs/lab-03-subnetting-24-25-26.pkt
 labs/lab-04-arp-mac-table.pkt
 ```
 
-## Regra de estudo
+## Status atual
 
-```text
-montar -> testar -> quebrar -> diagnosticar -> corrigir -> documentar
-```
+Repositório em andamento.
+
+Até o momento, há três aulas documentadas e anotações auxiliares para comandos, troubleshooting, glossário e subnetting. Os laboratórios Packet Tracer ainda dependem da inclusão manual dos arquivos `.pkt`.
+
+## Evolução do projeto
+
+- Definição da trilha prática para estudos de redes/CCNA.
+- Criação das primeiras aulas documentadas.
+- Inclusão de anotações auxiliares para consulta rápida.
+- Fase atual: expansão gradual das aulas e futura inclusão dos laboratórios `.pkt`.
+
+## Próximos passos
+
+- Adicionar os arquivos Packet Tracer dos laboratórios já descritos.
+- Continuar a sequência de aulas a partir dos fundamentos.
+- Registrar erros comuns e troubleshooting real de suporte/NOC.
+- Criar revisões periódicas com perguntas no estilo CCNA.
 
 ## Autor
 
-Vinícius Fidelis  
-GitHub: [vinionix](https://github.com/vinionix)
+Desenvolvido por [Vinícius Fidelis](https://github.com/vinionix).
